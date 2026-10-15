@@ -1,0 +1,25 @@
+country_code,country,central_bank,first_year,last_year,years,missing_years
+AR,Argentina,Central Bank of Argentina,2006,2025,20,0
+AU,Australia,Reserve Bank of Australia,2006,2025,20,0
+BR,Brazil,Central Bank of Brazil,2006,2025,20,0
+CA,Canada,Bank of Canada,2006,2025,20,0
+CH,Switzerland,Swiss National Bank,2006,2025,20,0
+CN,China,People's Bank of China,2006,2025,20,0
+GB,United Kingdom,Bank of England,2006,2025,20,0
+HK,Hong Kong SAR,Hong Kong Monetary Authority: Exchange Fund,2006,2025,20,0
+ID,Indonesia,Bank Indonesia,2006,2025,20,0
+IN,India,Reserve Bank of India,2006,2025,20,0
+JP,Japan,Bank of Japan,2006,2025,20,0
+KR,South Korea,Bank of Korea,2006,2025,20,0
+MX,Mexico,Bank of Mexico,2006,2025,20,0
+NO,Norway,Norges Bank,2006,2025,20,0
+NZ,New Zealand,Reserve Bank of New Zealand,2006,2025,20,0
+PL,Poland,Narodowy Bank Polski,2006,2025,20,0
+SA,Saudi Arabia,Saudi Central Bank,2006,2025,20,0
+SE,Sweden,Sveriges Riksbank,2006,2025,20,0
+SG,Singapore,Monetary Authority of Singapore,2006,2025,20,0
+TH,Thailand,Bank of Thailand,2006,2025,20,0
+TR,Türkiye,Central Bank of the Republic of Türkiye,2006,2025,20,0
+US,United States,Federal Reserve System,2006,2025,20,0
+XM,Euro area,Eurosystem (ECB and national central banks),2006,2025,20,0
+ZA,South Africa,South African Reserve Bank,2006,2025,20,0

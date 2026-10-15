@@ -1,0 +1,34 @@
+[
+  {
+    "file": "annual.xml",
+    "url": "https://stats.bis.org/api/v1/data/WS_CBTA/A.US+XM+JP+CN+GB+CH+CA+AU+NZ+SE+NO+KR+IN+ID+BR+MX+AR+ZA+TR+SA+SG+HK+TH+PL.B...?startPeriod=2006",
+    "retrieved_utc": "2026-10-15T10:42:19.362639+00:00",
+    "bytes": 243951,
+    "sha256": "dd6eb56587b02073b46912dc290c568dedd792b27910d00942a7be4a3166b3ea",
+    "content_type": "application/xml;charset=UTF-8"
+  },
+  {
+    "file": "monthly_recent.xml",
+    "url": "https://stats.bis.org/api/v1/data/WS_CBTA/M.US+XM+JP+CN+GB+CH+CA+AU+NZ+SE+NO+KR+IN+ID+BR+MX+AR+ZA+TR+SA+SG+HK+TH+PL.B...?startPeriod=2025",
+    "retrieved_utc": "2026-10-15T10:42:19.662633+00:00",
+    "bytes": 176723,
+    "sha256": "9ff341991c3b5ccc6997bd9b49113f9f37e9e983121b3fb87a87ce15dd23f363",
+    "content_type": "application/xml;charset=UTF-8"
+  },
+  {
+    "file": "structure.xml",
+    "url": "https://stats.bis.org/api/v1/dataflow/BIS/WS_CBTA/1.0?references=all",
+    "retrieved_utc": "2026-10-15T10:42:21.126747+00:00",
+    "bytes": 1512119,
+    "sha256": "da59e6998597e66f34e8dd73c7e17a563d8e47977cf30029982a1525ff3ee4cd",
+    "content_type": "application/xml;charset=UTF-8"
+  },
+  {
+    "file": "cbta_documentation.pdf",
+    "url": "https://www.bis.org/statistics/cbta/cbta_doc.pdf",
+    "retrieved_utc": "2026-10-15T10:42:22.602430+00:00",
+    "bytes": 394419,
+    "sha256": "1d3df59f14b182cf0c43c308d5090c62982d1ad3bfda482b42fa450630a79925",
+    "content_type": "application/pdf"
+  }
+]

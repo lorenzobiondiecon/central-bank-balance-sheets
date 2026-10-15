@@ -1,0 +1,4 @@
+# Preserve downloaded bytes and their checksums, including provider whitespace.
+data/raw/* -text -whitespace
+# Matplotlib emits intentional whitespace in SVG path coordinates.
+figures/*.svg -whitespace

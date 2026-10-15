@@ -1,0 +1,119 @@
+{
+  "snapshot_date": "2026-10-15",
+  "countries": 24,
+  "first_year": 2006,
+  "last_year": 2025,
+  "country_years": 480,
+  "missing_country_years": 0,
+  "source_series": 95,
+  "source_observations": 1900,
+  "annual_december_level_comparisons": 71,
+  "max_annual_december_absolute_difference": 0.0,
+  "annual_status_counts": {
+    "A": 1897,
+    "B": 3
+  },
+  "latest_month_min": "2026-05",
+  "latest_month_max": "2026-07",
+  "source_spot_checks": [
+    {
+      "country": "US",
+      "year": 2006,
+      "measure": "assets_usd_bn",
+      "value": 869.988
+    },
+    {
+      "country": "US",
+      "year": 2006,
+      "measure": "assets_pct_gdp",
+      "value": 6.2971423608095
+    },
+    {
+      "country": "US",
+      "year": 2006,
+      "measure": "assets_lcu_bn_reported",
+      "value": 869.988
+    },
+    {
+      "country": "XM",
+      "year": 2020,
+      "measure": "assets_usd_bn",
+      "value": 8564.323316113
+    },
+    {
+      "country": "XM",
+      "year": 2020,
+      "measure": "assets_pct_gdp",
+      "value": 59.81077910057
+    },
+    {
+      "country": "XM",
+      "year": 2020,
+      "measure": "assets_lcu_bn_reported",
+      "value": 6979.324
+    },
+    {
+      "country": "CN",
+      "year": 2025,
+      "measure": "assets_usd_bn",
+      "value": 6878.8680965248
+    },
+    {
+      "country": "CN",
+      "year": 2025,
+      "measure": "assets_pct_gdp",
+      "value": 34.369904614146
+    },
+    {
+      "country": "CN",
+      "year": 2025,
+      "measure": "assets_lcu_bn_reported",
+      "value": 48159.1
+    },
+    {
+      "country": "JP",
+      "year": 2025,
+      "measure": "assets_usd_bn",
+      "value": 4326.0744047099
+    },
+    {
+      "country": "JP",
+      "year": 2025,
+      "measure": "assets_pct_gdp",
+      "value": 101.69957770611
+    },
+    {
+      "country": "JP",
+      "year": 2025,
+      "measure": "assets_lcu_bn_reported",
+      "value": 677776.2
+    },
+    {
+      "country": "CH",
+      "year": 2025,
+      "measure": "assets_usd_bn",
+      "value": 1127.6383633621
+    },
+    {
+      "country": "CH",
+      "year": 2025,
+      "measure": "assets_pct_gdp",
+      "value": 103.00441785485
+    },
+    {
+      "country": "CH",
+      "year": 2025,
+      "measure": "assets_lcu_bn_reported",
+      "value": 893.85750550826
+    }
+  ],
+  "python": "3.14.7",
+  "packages": {
+    "pandas": "3.0.6",
+    "numpy": "2.5.3",
+    "matplotlib": "3.11.2",
+    "nbformat": "5.11.1",
+    "nbclient": "0.11.0",
+    "ipykernel": "7.3.0"
+  }
+}
