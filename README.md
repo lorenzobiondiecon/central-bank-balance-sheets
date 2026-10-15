@@ -9,6 +9,38 @@ Recent monthly observations are supplied separately, with their individual dates
 They do not represent completed annual observations for 2026. Availability here
 means availability in the saved BIS release, which can lag national releases.
 
+## Graphs
+
+The overview compares four large monetary jurisdictions. The full-sample graphs
+below cover all 24 authorities. Click a graph to open the full-resolution image.
+
+![Annual central-bank total assets in US dollars and as a share of GDP](figures/major_central_banks_overview.png)
+
+[Download overview PDF](figures/major_central_banks_overview.pdf)
+
+### All 24 authorities: US-dollar assets
+
+Each panel has its own vertical scale, in US$ billions. Use the labelled axes
+and final-year values to compare levels across countries.
+
+![Annual central-bank total assets for 24 authorities, in US-dollar billions](figures/all_central_banks_usd.png)
+
+[Download US-dollar plots PDF](figures/all_central_banks_usd.pdf)
+
+### All 24 authorities: assets relative to GDP
+
+All panels use the same vertical scale, in percent of GDP.
+
+![Annual central-bank total assets for 24 authorities, as a percentage of GDP](figures/all_central_banks_gdp.png)
+
+[Download GDP-share plots PDF](figures/all_central_banks_gdp.pdf)
+
+The comparison series are adjusted for statistical breaks. Euro area means the
+consolidated Eurosystem. Dollar changes also reflect exchange-rate movements.
+
+[Download the annual dataset (CSV)](data/processed/annual_balance_sheets.csv)
+or [open the executed notebook](central_bank_balance_sheets.ipynb).
+
 ## Open and run
 
 Open **`central_bank_balance_sheets.ipynb`**, the entry notebook. It contains the
@@ -23,12 +55,13 @@ Set `REFRESH=True` to fetch a new release; this replaces the saved snapshot.
 The notebook deliberately stops on incomplete coverage or unexpected source
 attributes so these changes can be reviewed before producing new figures.
 
-Execution used an existing Python 3.14.7 environment, without installing packages
-or altering that environment:
+Execution used Python 3.14.7 and the package versions in `requirements.txt`.
+To reproduce the results, clone this repository, activate a Python environment
+with those dependencies, and run:
 
 ```sh
-cd /Users/lollo/Research/central-bank-balance-sheets
-/Users/lollo/Projects/scientific-programming/.venv/bin/python run_notebook.py
+cd central-bank-balance-sheets
+python run_notebook.py
 ```
 
 On another machine, use a project-specific environment with the versions in
