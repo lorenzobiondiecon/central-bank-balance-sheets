@@ -57,7 +57,7 @@ payload = dict(bis_date=rows[0]['retrieved_utc'][:10], reserves_date=manifest[0]
 out.mkdir(exist_ok=True)
 (out / 'data.json').write_text(json.dumps(payload, allow_nan=False, separators=(',', ':')) + '\n')
 with (ROOT / 'data/processed/reserves_coverage.csv').open('w') as f:
-    writer=csv.DictWriter(f,fieldnames=coverage[0]);writer.writeheader();writer.writerows(coverage)
+    writer=csv.DictWriter(f,fieldnames=coverage[0],lineterminator='\n');writer.writeheader();writer.writerows(coverage)
 print('Dashboard: 24 banks, 480 annual points. Reserve coverage:')
 for row in coverage:
     if row['measure']=='reserves': print(row)

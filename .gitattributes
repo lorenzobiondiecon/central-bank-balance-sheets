@@ -2,3 +2,5 @@
 data/raw/* -text -whitespace
 # Matplotlib emits intentional whitespace in SVG path coordinates.
 figures/*.svg -whitespace
+# Preserve the third-party library exactly as distributed.
+docs/vendor/* -text -whitespace
