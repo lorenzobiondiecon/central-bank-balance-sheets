@@ -1,0 +1,73 @@
+country,measure,observations,first_year,last_year
+Argentina,reserves,20,2006,2025
+Argentina,reserves_ex_gold,20,2006,2025
+Argentina,gold,20,2006,2025
+Australia,reserves,20,2006,2025
+Australia,reserves_ex_gold,20,2006,2025
+Australia,gold,20,2006,2025
+Brazil,reserves,20,2006,2025
+Brazil,reserves_ex_gold,20,2006,2025
+Brazil,gold,20,2006,2025
+Canada,reserves,20,2006,2025
+Canada,reserves_ex_gold,20,2006,2025
+Canada,gold,20,2006,2025
+Switzerland,reserves,20,2006,2025
+Switzerland,reserves_ex_gold,20,2006,2025
+Switzerland,gold,20,2006,2025
+China,reserves,20,2006,2025
+China,reserves_ex_gold,20,2006,2025
+China,gold,20,2006,2025
+United Kingdom,reserves,20,2006,2025
+United Kingdom,reserves_ex_gold,20,2006,2025
+United Kingdom,gold,20,2006,2025
+Hong Kong SAR,reserves,17,2006,2023
+Hong Kong SAR,reserves_ex_gold,17,2006,2023
+Hong Kong SAR,gold,17,2006,2023
+Indonesia,reserves,20,2006,2025
+Indonesia,reserves_ex_gold,20,2006,2025
+Indonesia,gold,20,2006,2025
+India,reserves,20,2006,2025
+India,reserves_ex_gold,20,2006,2025
+India,gold,20,2006,2025
+Japan,reserves,20,2006,2025
+Japan,reserves_ex_gold,20,2006,2025
+Japan,gold,20,2006,2025
+South Korea,reserves,20,2006,2025
+South Korea,reserves_ex_gold,20,2006,2025
+South Korea,gold,20,2006,2025
+Mexico,reserves,20,2006,2025
+Mexico,reserves_ex_gold,20,2006,2025
+Mexico,gold,20,2006,2025
+Norway,reserves,20,2006,2025
+Norway,reserves_ex_gold,20,2006,2025
+Norway,gold,20,2006,2025
+New Zealand,reserves,20,2006,2025
+New Zealand,reserves_ex_gold,20,2006,2025
+New Zealand,gold,20,2006,2025
+Poland,reserves,20,2006,2025
+Poland,reserves_ex_gold,20,2006,2025
+Poland,gold,20,2006,2025
+Saudi Arabia,reserves,20,2006,2025
+Saudi Arabia,reserves_ex_gold,20,2006,2025
+Saudi Arabia,gold,20,2006,2025
+Sweden,reserves,20,2006,2025
+Sweden,reserves_ex_gold,20,2006,2025
+Sweden,gold,20,2006,2025
+Singapore,reserves,20,2006,2025
+Singapore,reserves_ex_gold,20,2006,2025
+Singapore,gold,20,2006,2025
+Thailand,reserves,20,2006,2025
+Thailand,reserves_ex_gold,20,2006,2025
+Thailand,gold,20,2006,2025
+Türkiye,reserves,20,2006,2025
+Türkiye,reserves_ex_gold,20,2006,2025
+Türkiye,gold,20,2006,2025
+United States,reserves,20,2006,2025
+United States,reserves_ex_gold,20,2006,2025
+United States,gold,20,2006,2025
+Euro area,reserves,20,2006,2025
+Euro area,reserves_ex_gold,20,2006,2025
+Euro area,gold,20,2006,2025
+South Africa,reserves,20,2006,2025
+South Africa,reserves_ex_gold,20,2006,2025
+South Africa,gold,20,2006,2025

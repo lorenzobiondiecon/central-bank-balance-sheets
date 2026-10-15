@@ -9,6 +9,42 @@ Recent monthly observations are supplied separately, with their individual dates
 They do not represent completed annual observations for 2026. Availability here
 means availability in the saved BIS release, which can lag national releases.
 
+## Interactive dashboard
+
+**[Open the interactive graphs on GitHub Pages](https://lorenzobiondiecon.github.io/central-bank-balance-sheets/)**
+
+Select any subset of the 24 central banks, or choose **All 24** for a shared
+comparison graph. Switch between linear and logarithmic scales, or display both.
+Filter the years, hover for values, zoom, download a chart image, or export the
+selected data as CSV. The URL remembers the comparison so it can be shared.
+
+Additional measures include domestic-currency asset growth and a 2006-based
+index; implied exchange rates (raw and indexed); international reserves including
+and excluding gold; and the implied monetary-gold value in reserves.
+
+Reserve observations come from World Bank WDI / IMF, indicators `FI.RES.TOTL.CD`
+and `FI.RES.XGLD.CD`. Unchanged responses and indicator definitions are saved in
+`data/raw/worldbank_*`, with request URLs, retrieval timestamps and checksums in
+`worldbank_manifest.json`. Country/measure coverage is recorded in
+`data/processed/reserves_coverage.csv`. Hong Kong has missing reserve observations
+in 2010, 2024 and 2025; these remain gaps. Reserve statistics have different
+institutional scope and valuation from accounting balance sheets, so they are
+related indicators rather than a harmonized balance-sheet component breakdown.
+Monetary gold is total reserves minus reserves excluding gold, in current dollars.
+
+The implied FX rate is adjusted local-currency assets divided by USD assets.
+Its 2006-based index rises with depreciation against the dollar. It is derived
+from the BIS series, rather than an independent exchange-rate download.
+Domestic-currency indices retain inflation and valuation effects.
+Log plots omit zero values and show a notice; negative annual growth uses a
+linear scale. Missing values are never interpolated or connected across gaps.
+
+The buildless site lives in `docs/` and uses a local, MIT-licensed Plotly.js 3.1.0
+bundle. It makes no live data API calls. To rebuild its data from the saved
+snapshots, run `python build_dashboard_data.py` (standard library only), then
+preview with `python -m http.server 8765 --directory docs`.
+GitHub Pages serves the `master` branch's `/docs` directory.
+
 ## Graphs
 
 The overview compares four large monetary jurisdictions. The full-sample graphs

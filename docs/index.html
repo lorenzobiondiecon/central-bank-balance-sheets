@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Central-bank balance sheets | Compare the world</title>
+<meta name="description" content="Explore annual balance sheets for 24 central banks from 2006 to 2025. Compare countries, international reserves, growth and exchange rates on linear and log scales.">
+<link rel="stylesheet" href="style.css">
+<script defer src="vendor/plotly-3.1.0.min.js"></script><script defer src="app.js"></script>
+</head>
+<body>
+<header><a class="brand" href="./">MONETARY ATLAS <span>/ balance sheets</span></a><a href="https://github.com/lorenzobiondiecon/central-bank-balance-sheets">Data &amp; notebook ↗</a></header>
+<main>
+<section class="intro"><div class="eyebrow">24 MONETARY AUTHORITIES · 2006–2025</div><h1>How big is a central bank?</h1><p>Follow the evolution of central-bank assets around the world. Choose your countries, switch the measure, and put the differences in perspective.</p></section>
+<div class="workspace">
+<aside aria-label="Comparison controls">
+<div class="control"><label for="metric">Measure</label><select id="metric">
+<option value="usd">Total assets · US$ trillion</option><option value="gdp">Total assets · % of GDP</option><option value="index">Assets in local currency · 2006 = 100</option><option value="growth">Assets in local currency · annual growth %</option><option value="reserves">International reserves incl. gold · US$ bn</option><option value="reserves_ex_gold">International reserves excl. gold · US$ bn</option><option value="gold">Monetary gold in reserves · US$ bn</option><option value="fx_index">Implied exchange rate · 2006 = 100</option><option value="fx">Implied exchange rate · local currency / US$</option>
+</select></div>
+<div class="control"><label for="scale">Vertical scale</label><select id="scale"><option value="linear">Linear</option><option value="log">Logarithmic</option><option value="both">Show linear &amp; log</option></select><p class="hint" id="scale-note">Equal distances represent equal changes.</p></div>
+<div class="dates"><div class="control"><label for="start">From</label><select id="start"></select></div><div class="control"><label for="end">To</label><select id="end"></select></div></div>
+<div class="country-heading"><label for="search">Central banks</label><span id="count"></span></div>
+<input id="search" type="search" placeholder="Find a country…" aria-label="Search central banks">
+<div class="presets"><button id="all" type="button">All 24</button><button id="core" type="button">Major four</button><button id="none" type="button">Clear</button></div>
+<div id="countries" class="countries"></div>
+</aside>
+<section class="results" aria-label="Interactive comparison">
+<div class="chart-heading"><div><div class="eyebrow" id="period"></div><h2 id="chart-title">Total assets</h2></div><button id="download" type="button">Download CSV ↓</button></div>
+<p id="description" class="description"></p>
+<p id="status" role="status" aria-live="polite">Loading the checked data snapshot…</p>
+<div id="legend" class="selection-legend" aria-label="Selected central banks"></div>
+<div id="charts"><div id="chart" class="chart" aria-label="Central-bank comparison chart"></div><div id="chart-log" class="chart" hidden aria-label="Logarithmic comparison chart"></div></div>
+<p class="hint">Hover to inspect values. Drag to zoom; double-click to reset. Use the country checkboxes to add or remove lines. Use “All 24” to compare the entire sample on one graph.</p>
+</section>
+</div>
+<section class="notes"><h2>Read the measures</h2><div class="notes-grid"><div><h3>Stocks at year-end</h3><p>The main series are BIS total assets at year-end, adjusted for statistical breaks. Euro area means the consolidated Eurosystem. Dollar changes also reflect exchange rates and asset valuations; GDP shares also reflect nominal GDP.</p></div><div><h3>Reserves &amp; exchange rates</h3><p>World Bank / IMF international reserves are external assets controlled by monetary authorities. Their scope and valuation differ from balance-sheet accounts, so they are a related indicator, not a harmonized component breakdown. Monetary gold is the difference between reserves including and excluding gold.</p><p>The implied FX rate is adjusted local-currency assets divided by dollar assets. In the FX index, an increase means depreciation against the US dollar. The index compares movements; raw rates have different currency units.</p></div><div><h3>Coverage &amp; sources</h3><p id="vintage"></p><p>Missing reserve values stay missing; lines do not connect across gaps. No incomplete 2026 observation is treated as a full year. Russia is outside this BIS sample. Hong Kong SAR uses the Exchange Fund; Norges Bank excludes the Government Pension Fund Global.</p><p><a href="https://data.bis.org/topics/CBTA">BIS total assets ↗</a> · <a href="https://data.worldbank.org/indicator/FI.RES.TOTL.CD">World Bank reserves ↗</a> · <a href="https://github.com/lorenzobiondiecon/central-bank-balance-sheets/blob/master/README.md">Methods &amp; downloads ↗</a></p></div></div></section>
+</main><footer>Built from public data. Explore the comparisons; keep the definitions in view.</footer>
+</body></html>

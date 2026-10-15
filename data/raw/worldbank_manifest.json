@@ -1,0 +1,26 @@
+[
+  {
+    "file": "worldbank_FI.RES.TOTL.CD_observations.json",
+    "url": "https://api.worldbank.org/v2/country/AR;AU;BR;CA;CH;CN;EMU;GB;HK;ID;IN;JP;KR;MX;NO;NZ;PL;SA;SE;SG;TH;TR;US;ZA/indicator/FI.RES.TOTL.CD?format=json&date=2006:2025&per_page=20000",
+    "retrieved_utc": "2026-10-15T13:00:56.527094+00:00",
+    "sha256": "a14411f430374fdd48fa05ca7e00fa3bad85d509e763014af9aa176a9181de9f"
+  },
+  {
+    "file": "worldbank_FI.RES.TOTL.CD_metadata.json",
+    "url": "https://api.worldbank.org/v2/indicator/FI.RES.TOTL.CD?format=json",
+    "retrieved_utc": "2026-10-15T13:00:56.527744+00:00",
+    "sha256": "5025cee596ea74d3347f9d204a74b949c0e25f499dfaff409d76a603c1ef94b2"
+  },
+  {
+    "file": "worldbank_FI.RES.XGLD.CD_observations.json",
+    "url": "https://api.worldbank.org/v2/country/AR;AU;BR;CA;CH;CN;EMU;GB;HK;ID;IN;JP;KR;MX;NO;NZ;PL;SA;SE;SG;TH;TR;US;ZA/indicator/FI.RES.XGLD.CD?format=json&date=2006:2025&per_page=20000",
+    "retrieved_utc": "2026-10-15T13:01:07.650144+00:00",
+    "sha256": "3c6b096dba464888ca4728348391c6dae77a0a17d29f42c6dfb0dd1b254d933a"
+  },
+  {
+    "file": "worldbank_FI.RES.XGLD.CD_metadata.json",
+    "url": "https://api.worldbank.org/v2/indicator/FI.RES.XGLD.CD?format=json",
+    "retrieved_utc": "2026-10-15T13:00:56.494772+00:00",
+    "sha256": "0dde62af3e6b202a325262738906d19303d8abd3678d6d33c50780fee3ae43df"
+  }
+]
